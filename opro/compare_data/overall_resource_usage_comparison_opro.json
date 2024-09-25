@@ -1,0 +1,20 @@
+{
+  "with_query_improvement": {
+    "total_tokens": 17685,
+    "total_time": 186.7138855457306,
+    "average_tokens_per_query": 2526.4285714285716,
+    "average_time_per_query": 26.673412220818655
+  },
+  "without_query_improvement": {
+    "total_tokens": 12038,
+    "total_time": 115.42474627494812,
+    "average_tokens_per_query": 1719.7142857142858,
+    "average_time_per_query": 16.48924946784973
+  },
+  "difference": {
+    "total_tokens": 5647,
+    "total_time": 71.28913927078247,
+    "average_tokens_per_query": 806.7142857142857,
+    "average_time_per_query": 10.184162752968925
+  }
+}
