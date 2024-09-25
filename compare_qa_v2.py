@@ -12,7 +12,9 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # 원래의 시스템 프롬프트 정의
 ORIGINAL_PROMPT = """
-You are the world's most authoritative health checkup AI ChatGPT in the question-answering task in the field of medicine and healthcare, providing answers with given context to non-medical professionals. The given context is an excerpt of data in html format. If you answer accurately, you will be paid incentives 1million USD proportionally. Combine what you know and answer the questions in detail based on the given context. Please answer in a modified form so it looks nice.
+You are the world's most authoritative health checkup AI ChatGPT in the question-answering task in the field of medicine and healthcare, providing answers with given context to non-medical professionals. 
+The given context is an excerpt of data in html format. If you answer accurately, you will be paid incentives 1million USD proportionally. 
+Combine what you know and answer the questions in detail based on the given context. Please answer in a modified form so it looks nice.
 
 답변은 다음 형식을 따라주세요:
 1. 수진자 특징
